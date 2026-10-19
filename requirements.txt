@@ -1,0 +1,13 @@
+# Flood water level detector - dependencies (Python 3.9+)
+#
+# Works for Streamlit Cloud / servers (headless OpenCV)
+streamlit>=1.50
+opencv-python-headless>=4.5
+numpy>=1.21
+pandas>=1.5
+# Live browser-camera tab:
+streamlit-webrtc>=0.47
+av>=10.0
+#
+# Using the command-line tool (flood_app.py) on a desktop with a screen?
+# Replace opencv-python-headless with:  opencv-python>=4.5
